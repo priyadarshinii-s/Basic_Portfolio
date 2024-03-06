@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#ededed;
+    background: black;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background: #92C7CF;
+    color:rgb(96, 96, 96);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo-Container{
+    height: 30px;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.nav{
+    color: black;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 35px;
+    font-size: 20px;
+    padding-right: 15px;
+    margin-right: 125px;
+    transition: 3s;
+}
+
+.nav a{
+    color: rgb(96, 96, 96);
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.maincontainer{
+    background: black;
+    width: 100%;
+    margin-top: 90px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    color: rgb(96, 96, 96);
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    margin-bottom: 175px;
+}
+
+.name{
+    color: #92C7CF;
+    padding: 50px;
+}
+
+.home{
+    position:relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    padding-top: 150px;
+}
+
+.home-pic{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #92C7CF,
+                1px 1px 40px #92C7CF;
+}
+
+.home-container{
+    max-width: 600px;
+}
+
+.home-container h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-container h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-container p{
+    font-size: 20px;
+}
+
+.home-icon a{
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #92c7cf;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #92C7CF;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-icon a:hover{
+    background: #92C7CF;
+    color: rgb(96, 96, 96);
+    box-shadow: 0 0 20px #92C7CF;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 20px;
+    background: #92C7CF;
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover{
+    box-shadow:0 0 5px #92C7CF,
+    0 0 25px #92C7CF,0 0 50px #92C7CF,
+    0 0 100px #92C7CF;
+}
+
+.aboutme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1rem;
+    margin-right: 75px;
+    padding: 50px;
+}
+
+.about-image{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pic{
+    border-radius: 50%;
+}
+
+.about-txt h2{
+    font-size: 60px;
+}
+
+.about-txt h2 span{
+    color: #92C7CF;
+}
+
+.about-txt h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-txt p{
+    color: #92C7CF;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.pic{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.skills{
+    color: #92C7CF;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    padding: 70px;
+}
+
+.skill-container{
+    padding: 90px;
+    margin-top: 50px;
+}
+
+.skill-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+
+.skill-title span{
+    color: #92C7CF;
+}
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.skill-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #92C7CF;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-list div:hover{
+    box-shadow: 1px 1px 20px #92C7CF,
+                1px 1px 40px #92C7CF;
+    transform: translateY(-10px);
+}
+
+.skill-list div h2{
+    text-align: center;
+}
+
+.project-txt{
+    padding-top: 130px;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.project-txt h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.project-txt h2 span{
+    color: #92C7CF;
+}
+
+.project-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(325px,1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row{
+    background-color: transparent;
+    padding: 50px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px #92C7CF;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+
+.details{
+    width: 100%;
+    border-radius: 8px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.details h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.details p{
+    color: #92C7CF;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: left;
+} 
+
+.row:hover{
+    transform: translateY(-10px);
+}
+
+.contact-txt{
+    padding-top: 130px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.contact-txt h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-txt h2 span{
+    color: #92C7CF;
+}
+
+.contact-txt h5{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-txt h6{
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-icon a{
+    display: inline-block;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #92c7cf;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #92C7CF;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.contact-icon a:hover{
+    background: #92C7CF;
+    color: rgb(96, 96, 96);
+    box-shadow: 0 0 20px #92C7CF;
+}
+
+.contact-icon i{
+    align-items: center;
+    padding: 10px;
+}
+
+.contacts{
+    padding: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.contact-container{
+    justify-content: center;
+    text-align: center;
+}

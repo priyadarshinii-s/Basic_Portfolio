@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="Logo-Container">
+                <h2 class="title">My Portfolio</h2>
+            </div>
+            <div class="nav">
+            <nav>
+                <a href="#home">Home</a>&ensp;
+                <a href="#aboutme">About Me</a>&ensp;
+                <a href="#skills">Skills</a>&ensp;
+                <a href="#projects">Projects</a>&ensp;
+                <a href="#contact">Contact</a>&ensp;
+            </nav><br>
+            </div>
+        </header>
+        <section class="home" id="home">
+            <div class="home-container">
+                <h3>Hello, I'm</h3>
+                <h1>Priyadarshini S</h1><br>
+                <h3>And I'm a software engineer</h3>
+                <p>& also a frontend designer</p>
+                <div class="home-icon">
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+            <div class="profile">
+                <img class="home-pic" src="D:\MERN Training\Day-3\Portfolio\Profilepic.png" alt="Profile Picture">
+            </div>
+        </section>
+
+        <section class="aboutme" id="aboutme">
+            <div class="about-image">
+                <img class="pic" src="D:\MERN Training\Day-3\Portfolio\Profilepic.png" alt="Profile Picture">
+            </div>
+            <div class="about-txt">
+                <h2>About <span>Me</span></h2>
+                <h4>Software Engineer</h4>
+                <p>I am a skilled software engineer with great passion towards 
+                    my work..And I am a frontend designer & developer..
+                    I'm currently pursuing my engineering degree in Sri 
+                    Eshwar College of Engineering, Coimbatore..</p>
+                <a href="#" class="btn-box">More About Me</a>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="skill-container">
+                <h1 class="skill-title"><span>My </span>Technical <span>Skills</span></h1>
+                <div class="skill-list">
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAI9klEQVR4nO2ZW1DT6RmH2e60nelMO21nOr3Ym17YixoChHAIiKxdXY/IISGcAkk4JQRCOERAUZfR7Wzdrq4riRzXQ9etXa1bdrRF0F0E5JBACMhBIIiieKqrrLgiisiv831/AwES/OviyoXvzDMDgcw8vzfv937JxMnpdb2uhVfxmvbfJ6Z21GhzB59oN18ej0tu/UYcW/s7p4VeYjHelCvb9NrcgfGcvBvIybtOyX7vGtI3XhqXKc2HxOLOnzktxIpTtKRqsi+MTEkz4oSsrVcpG7YMQq21jEoTmnOcFkpFK4yrVZk91x1JZ20dpOIbtlyBdrOVy1CkdtyJjDMEvzrx+IZFieoOU07eNTvSTLcJttKZuYQBSsamS0jfeBGxqjaLVGrk/GjiEonhVwkp577U5g5M2BuR6d2eKW0VZ+TTN15EWk4/1FmWCanCeFoma/31S1THG3Jl6/a0nP4xR9KZuUTMgtSs80jObEdyuhmqNDNUGa1I0XYiNasbaTl9VJrhAjTZDKlZfVCmdT2WJBiK8/Lwk3lVj1EYZSnanuHZc82MSPrGfqRoz+H9D8/jq/8Moqv7Lq5eG8Ho6DgePnyC6zdG0dX9Hf59/DK27eiEUmNGirYbmmwStg+pWRaoNxB6KfHJrffDYmqT50Hc5KfQdPU7muuMTUS8HQWlfbh2fQRs6+q1+9AVdkOpMSE58zyVTtESeijJmd0UmdJ0M1xas/K5xePjO3+boG43TI3H7LlOy7Fg8/YOWC4M40Wrx3IXWZtbkJTePilNAqkyGJLSu6BM60RUXL0hMLDul6wDKNI6B2ZK2x5I9YZu/HVXF4aHx/BD6969MXzwURsS1S2T0gydVF6Z1gFJfBOCImp6WAcg22LmFrFuEE12Lz7c3YXx8QnMVz0en8D7O1qRmNoyKU2QKVsgjKpHhNyMMKkJrAPM3NfW1afJ7sOmvHMYvvfDO2/vldDmGpGgbkNCShtEkjqEyVoQLmcQS5vZB3C0r5PSzbBcuIuXVee7hxAcUYnQGCMjLmtBmMxEEcc0sQ9gK23d12Tt6Yt7nylxd3gMR471Y8t2MxQaA5QaIzZva8EXx/oxPPzI4fO6uoegzTXQzoulTYy4tJl2nvxOQrEOYBW3XjJkdBQaE11/c1W94SZUaUYoNK10s5CDmJTeAYWmHQlqExSaejQYb057zq1vR/G33W0IiaqCWGpEmKz5qXgTQ4yRyouiG9kHsEpPXTLdyPtL2zPkbyA+uZEevqkNwhxIhYYJkZjaBrnyLBoMN/Bg9DH+frgXYukZhMbU25UOjTEgNJrQCKGkgX2Ambcj6eaxry7NMTaPkETGJa19ljQjfo5CDmhccgtCo09CrqyBMOqsjXTTlDQVb6RdF0U3QCRpQEhUHfsA1ivdejOSl7/z/JDDAP882k//hxG3Sk8XJ4TL6xESWUfFiKTYTrcZ6UYqTboulNTTVRoSeZZ9AOY6n7rS41SGOed/U14zHQ970gnqVkQnGBESUeNwREQ20iIbaWFUHe18SNRZBEfUsg9ApK3XuSqjC/Kkejx48NhhgAR1HQ1gKx2f0gq5qgUhkdVU1t5ci2xGhEpLpkuTrodE1iI4shZB4dXsA8y80mXKOozMFSDl7KQ0gcy5MLIKS945jBUBJ+go2JtroY200I50cEQNJSiimsI6gO37EIJcWYfBq987DJCz1Yi4ZBPiks0Il9XC/90j8Fp6kOLpdxAC/0NYGVgOERW2MyKRNtKRjHTwU+mg8DOUwPAq9gGmr752yJSNaO+87TDA4aMWRMZWY0VA2TRxT78D0/BZ9jlWB1dQseDIaioebK/b4Yx4ICGsCoFh31BYB5i5+mJVRhw51ucwwNB3o/BfUTJLmOCxhLB/Er7vp/BfsQ8pmVUICD3JdHimdHjVpPh6gvhrCusACeqpLWKd6U3vGTFXlVf2gO+jh6ff/lnSjPg+uPuUwt1bh8rTvZiYAL4+cxlyRSUCRBVU1J50gPg0AkIJp9gHsB7G+BQznWsSQBJ3BlcG780doqIHvn8uAN+nmHbaChUXFNG/VZya/n5qfHwCZcf7II45gXWicqwXn6Yw4qco60IrsU5UyT4AI82Ix6oIJkgVjfhgZxOeVbfvjODj/FqERh2CwL8AgrcLEBr1GX3szh3HHzuH7z1EYYkZa4K+xDpRxaQ0/VlUgbXCk+wDWKUJ8qRmSBMNWB18Ap6+BTC3DuJlVZNpADzvfCxb/S+sFVZgregkFV8rLMcaYTn7AESaIFM0ITCsEoJln9G5JuOwKnAf7fJ819DQCFYGlMDFswCuXkXw8NuP5evKsCakHGtC/kthHSBGYUCopAq+7xyedRjdfYoQE/8FxsaezJv82NgTREk/h4unjsq7eBIKKV5LD2B5QBlWBR1nH8D/3SNl9raIFZ6gEBL5YXx7e+7PB2zqztAIomP/AReP/EnpKQrA9SAUwnPpgSrWAfj84p/yl+zfxvfdN2IrzmwUBhJi1fpSmMxXXli+qXkAy1cXgTtN3irN4OyhH+Hy9dsWLdrzc6fnLVfBwbf4vp8W8wSl41ZxuhJ9SsETlMLNuxiuXnugziiDpe8Wa/Eey/+g0hwDx30XuB57Z0kz6Cc4fP1RV9fCPzy3+KxXRLDfnedTcoZIT1FCcfMugatXIbgeH0MYdhC782tQ13ARvZZb+P7+Q9wfeYS+C7dR19CPXXuqESQ+8FRcR+WnS++FM38vOHx9ozNP5+M03+UmKF7BExR3WsXJK2ALMwI6OPM/gTN/F5x5O8HhfQSO+05w3D+ho8L10M+S5j4Vd+brLVy+Tuz0MoucD1fvIoWrV9EtZoQIRdNwfBjtSe8lHR/i8nU5LzTnL1pcv4LfuHgV7nD1KnrITnpqRKbEdWMcvr7YzW3Pq/sC0M278I8uHoVHXTwLJoj4s6Sd+XoKx11/+k+u+h/vm5lnFde9QMDl722wNyJWaSrO07c4u+1922lhFt7g8gvEHL7+0oxuY7G77upid51CLD76ptNCLz6/+Bccnn7LYp6ufzEvv5/Dy99CHnvVXq/rdTnNrv8Dox4StJ7MCqwAAAAASUVORK5CYII=">
+                        <h2>C</h2>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADGUlEQVR4nO2YPWgUQRTHZ2dzM5dYaCFBAiaFNkZRBMUuiI0fRdBCwSZFolj4kWCSmRMJhyksBJVgI2qhhYIpFEREczPZmUSDSBo/kIAERWMnETQmSDRPdm89g4TczCXrXnD/8Jpr9vfb92Z25hBKkiRJEoTAQTy3GWcEd7i8i7l4hZkYx0x+x1xMYi4+YCaeOlxecrncgbJZXD5vrUNsDIC5BNNyuHiITnor40ZHKHuvCjM5ZgNfKCaHYu+Ey/p3lgQflpvJ7YpVAHPZHL7NMXRK1COeq8VcvrAYpe54BZhoy4PIa39+k13mAvJiWQgUOtAu6+w6IMtEoMRyEoGYu+SEHQBN2kBTmFVToOkzUGTfUhWAoBSdAU0Plf70jLfW4fJy+KWdWMi8lySgg/oKMl1nze52ykbM5LfFhi5BAEDRs3b0+e1w0d/4HALnzQTIqBW/w0VP1PBBMXEsEFDk9LwCfnlVq4wFMBNvohcQn1H7o+p8B+jtogKK7DGjb/VWYC5mIhaY8A+CyId/sqw6WKjFBVrNBHhuezTjIn9iJt87TF5FHXLN78eBpreKwufrjNn4ZORBy1EYwVw2oc6+muBmZhgAhEHRC4bw/k50zkyAi6Pmu4i4iY4/oKbQhZFRqQOg6LAxfH6EuJkAEy2GW2A/ynoVAdTjyhrQtAc0eQua/rAC06YC6SYjAbdT7DWZZ8T61gXwXsUW0ORTJNB6Vg2mNpn1mMn1BgJDeXiUBk3eRQ6v6CQMo5SZwP5et9hX2OHiSiCgSGPk8DqoO8gmDhPS6AyjyIl/AD/tj6mVAGbiiJFAsTPMYsAr2oysw3PL5/u/J2KBKdD0NShy3XzhzhGXid2YiemSBRSN98IehMsGf7//+16wdASKZMEjpGKW/M8EyBgMkHrQ6dWg6POlJ6BI4e9H0KSrTARoi4XAR/BSG2AwXQuavgwFuuMVCEZiAWvAo4djFTC+z869gL9YXdQjExhGVaDJDTt4Mgo63YDKKaAqtvrXPlBEh0fsifAsMw6KjoCi90GRLAxUboNe5MbNmyRJElQe+QWgfIcmva+j+wAAAABJRU5ErkJggg==">
+                        <h2>Python</h2>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,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">
+                        <h2>Java</h2>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,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">
+                        <h2>HTML</h2>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEElEQVR4nO3YSUwUQRQA0J5qF4zx4JK4HEz04HrRg3G5aIxr4nJRb+pFOelBYaoaVDSgkcUVN0Qxbgfxoh5QYKp6RBQXkIjKMuAoiAziMKCCKCiU6THQXTgtM12lk5j5SSVkuqu7Hr+2LkmKRCQi8f8GQKQdIELDWiBusw6AxB12AMKvODKAH4YdAEmRZYAN4pu8DZDPNYRejlb21bchcsM6AOHMsAAOvdABEJ/lyUBSOAAgucyQAZxoGQAQ2R4WwIGnhjGAt1kHQLIhLIDEx3p9hay3DJCQY5FZw6alPqAtLS0DlmBizOVGFpHwoO89kl1daB0A86ebAcYm3hMC6KGUDjnfLwO7C3VAnHOadYDiGG0GGBKnUp+PH/Cxs/v3LhTn1AE7ckdZB0jUBhDuMkO88Xi5AbVtP1jA2XrDO3CX1gYOgH8mahA5iKdmNzGAMl8Xe8/pN4YZiLzjarwfAEmpSMD8W14GUODpZLvPCbex/lNugA3hXJGAVbk+BnCr9it7zzGXYRUmd/gBEF8SCdjsZMfFpeov7D2Hyw2rMLkoIgNpwTY21eEKeRAff9HOAlKeGzKAU7kBAJLYYAEJOZUhAxJLP7Nj4GCpcRaK4QcgsilYwM6bL0MGxD76xAKSivVn2slGboAM1eXBAqKvPw8ZsKWglQXse6iPH4Us4wZIyDFb5CC+WtPBANY5fOw9e+731ZVinbP4Afb8CSIBOW+/MoClOc1sBuLv6oD4gvH8gL3OQQCS7kCNm5nG7kgLqxoGBBS972QAc2580K9nvqNAUXsHcI8UXTKYH/BrJmoOBJh4oJABlLgbBwRUtH5nAFOym/TrGXXGGcgrpPF+ACIVgQAj995lALWNXro8s5hGxeu7yd7GDcvy0NW5Ptra2c0Axl3RvwXAqdf68yEpFwawQeIMBBhssqV+7fHSkwWv6OIzT+iK2830gusLbfnGNrw3orI8egbSq42rsCoOgHC22SCtb2q2vJ1u/97DdrEjhuMUSK6JA0CcbgY4olb/8bvALLSulFHRbxuRZjhOQfi4MABAZPefpkqtKy048Zgm57uoq77JFKB1oys1HXRtns8/JuT+X2IpzwxjAO8SB4Bka7DzvhFTVf+B+gZotGx2nILwFmEAGalrrSxi2nfz0CyLxyl2skYYQILOeaJWYtNypo7dRijqXHEAxTFZOEBbdU+6qZxS9uscSGHrSTF5k8QBYvKGCwFk1FH5aBUF+4spMCx2IEDR3ikJDS0Lihptg+Q6QPhz0Ij0GgqSn1E5Qe8egQvusEHiAApGUhyeIf3V2FE0TFYcS2yQJAOIS6xmB0Di1o7P/eef9vsjpLBF0Nn5l/9lnuxAvNK/ekNcoxXtb+037Zrl50YiEpH4P+Mn9Q+e3CSBSHQAAAAASUVORK5CYII=">
+                        <h2>CSS</h2>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKElEQVR4nO2WT0hVQRTGz/GZ7yEiRJJ/SsMiRaigUFwUhQgGouLChZS5Cmmj5c4kol1tRNoYLcJ0JRKUFYmUJi5EQSP/dEFxkUW4iQyUIMS+mHe5jtN7ihLeO8L54OPBmXmX+c2c+90hEolEIisFh2CTSQAcOQFIC+1GQbcM5CV2gt91SIw6we885EPm2GHarYJeMATACX7XIS3k/M+O8YZ7282xmT5CbTkjI42RGGJkHWbUVTJmX+4DgMFOQiSsx2iTkyMcHbcWYH2WkHtU18NJjILj7q9XKz7D+PPJUoCPz3U9IYEx/cKtLw4STmQzbl5jrExYfALDXbqu2uj3lJ7/64NlKRQP4MuQWa8uZXx+t9PnWQCgfPmC+eJGwozrNYz5/n0C8G2YcLYgNoFCIRdkddJyAGW1yNYGRkpyLMjpPMaPMcsBPH8fJdxvJqQfMiEar3KwACrvtwP4N+d/jlM0/7352Rk+AqgUqSphvH6kawsDJsCrDj3W/YBQeCo279tb9H+SDvgE0NNG0c+/lya36hkddwnnz5ktoe4+ar66/3i1kmLG1yG3vjxOuFSkx9TX2heAuTcaYCufPKavBg9bzZNhZhxJN68SyrcbfGyh908JqSnxF69a4e0Ts/fv3Nge+GJh/CjdMwDlpRFCUx0jJ9PNc3VNriljTD6LP3+sh3ClgpGf6+7+wVR34Y/vEdZmtkq1PQTwwyQAjpwAfG0hkUgkIj/0FxH0JVVHu8XgAAAAAElFTkSuQmCC">
+                        <h2>Javascript</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="project-txt">
+                <h2>My <span>Projects</span></h2><br>
+                <div class="project-content">
+                    <div class="row">
+                        <!-- <img src="#" alt="Project-1 Image"> -->
+                        <div class="details">
+                            <h5>Recipe Management System</h5>
+                            <p>Recipe Management System is used to share the recipes of the culinary creators with ingredients list, 
+                                approximate cost and Nutritional values of their recipes. 
+                                So that users can easily know different recipes. 
+                                The project is specifically designed for the use of creators and users of the recipes.</p><br>
+
+                            <a href="#"><i class="fa fa-external-link" aria-hidden="true" style="color: #fff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- <img src="#" alt="Project-2 Image"> -->
+                            <div class="details">
+                                <h5>Storage Management System</h5>
+                                <p>The storage management system for the supermarket aims to enhance efficiency and 
+                                    transparency in the supply chain by seamlessly connecting suppliers and employees. 
+                                    The primary objectives include real-time inventory tracking to optimize stock levels, 
+                                    reducing instances of overstock or stockouts.</p><br>
+    
+                                <a href="#"><i class="fa fa-external-link" aria-hidden="true" style="color: #fff;"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-txt">
+                <!-- <h2><span>Education</span></h2><br>
+                <h5>B.Tech, Computer science and business system</h5>
+                <h6>Sri Eshwar College of Engineering,</h6>
+                <h6>Coimbatore</h6> -->
+                <h2><span>Contacts</span></h2>
+                <div class="contact-container">
+                    <div class="contact-icon">
+                        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        <h4>+91 8270306824</h4><br>
+                    </div>
+                    <div class="contact-icon">
+                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <h4>www.linkedin.com/in/priyadarshini-subramanian-772898259</h4>
+                    </div>
+                    <div class="contact-icon">
+                        <a href="#"><i class="fa fa-envelope" aria-hidden="true" style="display: flex;justify-content: center;align-items: center;"></i></a>
+                        <h4>priyadarshini.s2022csbs@sece.ac.in</h4>
+                    </div>
+                    <div class="contact-icon">
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <h4>www.github.com/priyadarshinii-s</h4>
+                    </div><br><br>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
